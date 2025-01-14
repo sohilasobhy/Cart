@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+body .modal.modal-slide-up .modal-dialog {
+  animation: slideUp 0.5s ease-out;
+}
+body .modal.show .modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body .modal-content {
+  width: fit-content;
+}
+body .modal-fullscreen .modal-content {
+  transition: 0.5s ease-in-out;
+}
+body nav h1 {
+  color: #a8a5a3;
+}
+body nav h1 span {
+  color: #ab47bc;
+}
+@media (max-width: 992px) {
+  body nav h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 786px) {
+  body nav h1 {
+    font-size: 26px;
+  }
+}
+body nav .header {
+  color: #a8a5a3;
+  font-size: 20px;
+}
+body nav .header img {
+  width: 150px;
+}
+@media (max-width: 786px) {
+  body nav .header {
+    font-size: 18px;
+  }
+  body nav .header img {
+    width: 100px;
+  }
+}
+body .line {
+  height: 1.5px;
+  background-color: #a8a5a3;
+  width: 100%;
+}
+body .oneOrder {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  width: 800px;
+}
+@media (max-width: 992px) {
+  body .oneOrder {
+    width: 600px;
+  }
+}
+@media (max-width: 786px) {
+  body .oneOrder {
+    width: 300px;
+  }
+}
+body .order {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  height: 100px;
+}
+body .order p {
+  color: #a8a5a3;
+  font-size: 24px;
+}
+body .order img {
+  width: 150px;
+}
+@media (max-width: 786px) {
+  body .order img {
+    width: 80px;
+  }
+  body .order p {
+    font-size: 20px;
+  }
+}
+body .orderHead .receipt {
+  font-size: 26px;
+  color: #ab47bc;
+  font-weight: 600;
+}
+@media (max-width: 786px) {
+  body .orderHead .receipt {
+    font-size: 20px;
+  }
+}
+body .orderHead .voucher {
+  color: #a8a5a3;
+  font-size: 18px;
+}
+@media (max-width: 786px) {
+  body .orderHead .voucher {
+    font-size: 14px;
+  }
+}
+body .orderTop .name {
+  font-size: 24px;
+  color: #a8a5a3;
+}
+@media (max-width: 786px) {
+  body .orderTop .name {
+    font-size: 20px;
+  }
+}
+body .orderTop .details {
+  font-size: 22px;
+  color: #a8a5a3;
+}
+@media (max-width: 786px) {
+  body .orderTop .details {
+    font-size: 18px;
+  }
+}
+body .orderTop .orderTotal {
+  font-size: 26px;
+  color: #a8a5a3;
+  font-weight: 600;
+}
+@media (max-width: 786px) {
+  body .orderTop .orderTotal {
+    font-size: 22px;
+  }
+}
+body .orderBottom .progress {
+  background-color: #a8a5a3;
+  width: 75%;
+  height: 8px;
+}
+@media (max-width: 992px) {
+  body .orderBottom .progress {
+    width: 100%;
+  }
+}
+body .orderBottom .progress-bar {
+  background-color: #ab47bc;
+}
+body .orderBottom .trackOrder {
+  color: #a8a5a3;
+  font-size: 22px;
+  font-weight: 600;
+}
+body .state {
+  margin-top: -10px;
+}
+body .state p {
+  color: #a8a5a3;
+  font-size: 22px;
+}
+@media (max-width: 992px) {
+  body .state {
+    margin-top: 0;
+  }
+  body .state p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 786px) {
+  body .state p {
+    font-size: 16px;
+  }
+}
+body .orderDetails .header {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
+  body .orderDetails .header {
+    font-size: 20px;
+  }
+}
+body .orderDetails .type,
+body .orderDetails .value {
+  color: #a8a5a3;
+  font-size: 24px;
+}
+@media (max-width: 992px) {
+  body .orderDetails .type,
+  body .orderDetails .value {
+    font-size: 20px;
+  }
+}
+body .orderDetails .type {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=Index.css.map */
