@@ -34,13 +34,11 @@ body {
   .modal.modal-slide-up .modal-dialog {
     animation: slideUp 0.5s ease;
   }
-
   .modal-fullscreen {
     .modal-content {
       transition: 0.5s ease-in-out;
     }
   }
-
   nav {
     h1 {
       color: $primary-color;
@@ -50,7 +48,7 @@ body {
       @media (max-width: 992px) {
         font-size: 32px;
       }
-      @media (max-width: 786px) {
+      @media (max-width: 768px) {
         font-size: 26px;
       }
     }
@@ -60,7 +58,7 @@ body {
       img {
         width: 150px;
       }
-      @media (max-width: 786px) {
+      @media (max-width: 768px) {
         font-size: 18px;
         img {
           width: 100px;
@@ -86,13 +84,15 @@ body {
     img {
       width: 150px;
     }
-    @media (max-width: 786px) {
+    @media (max-width: 768px) {
       img {
         width: 80px;
       }
       p {
         font-size: 20px;
       }
+      height: fit-content;
+      width: fit-content;
     }
   }
   .orderHead {
@@ -100,14 +100,14 @@ body {
       font-size: 26px;
       color: $secondery-color;
       font-weight: 600;
-      @media (max-width: 786px) {
+      @media (max-width: 768px) {
         font-size: 20px;
       }
     }
     .voucher {
       color: $primary-color;
       font-size: 18px;
-      @media (max-width: 786px) {
+      @media (max-width: 768px) {
         font-size: 14px;
       }
     }
@@ -116,14 +116,14 @@ body {
     .name {
       font-size: 24px;
       color: $primary-color;
-      @media (max-width: 786px) {
+      @media (max-width: 768px) {
         font-size: 20px;
       }
     }
     .details {
       font-size: 22px;
       color: $primary-color;
-      @media (max-width: 786px) {
+      @media (max-width: 768px) {
         font-size: 18px;
       }
     }
@@ -131,7 +131,7 @@ body {
       font-size: 26px;
       color: $primary-color;
       font-weight: 600;
-      @media (max-width: 786px) {
+      @media (max-width: 768px) {
         font-size: 22px;
       }
     }
@@ -166,7 +166,7 @@ body {
         font-size: 20px;
       }
     }
-    @media (max-width: 786px) {
+    @media (max-width: 768px) {
       p {
         font-size: 16px;
       }

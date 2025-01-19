@@ -16,15 +16,15 @@
       <div class="modal-content">
         <div class="modal-header">
         <img src="Assets/Images/full-size.png" alt="full size button" width="20" id="fullscreenToggle" style="cursor: pointer;">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" id="btn-close1" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <div class="oneOrder h-100 p-lg-5 p-md-4 p-2 position-relative d-flex flex-column justify-content-center" id="firstOrder">
+            <div class="oneOrder p-lg-5 p-md-4 p-2 position-relative d-flex flex-column justify-content-center" id="firstOrder">
                 <div class="orderTop d-flex flex-lg-row flex-column align-items-center gap-4">
                     <img src="Assets/Images/glasses.png" alt="glasses">
-                    <div class=" d-flex align-items-center justify-content-between gap-lg-4 w-100 flex-column flex-md-row">
-                        <div class="d-flex align-items-center justify-content-between gap-lg-4 w-100">
-                            <p class="name">Jack Jacs</p>
+                    <div class=" d-flex align-items-center justify-content-between gap-4 w-100 flex-column flex-lg-row">
+                        <p class="name">Jack Jacs</p>
+                        <div class="d-flex align-items-center justify-content-between col-12 col-lg-6">
                             <p class="details">Golden Rim</p>
                             <p class="details">Size: M</p>
                             <p class="details">Qty: 1</p>
@@ -49,19 +49,19 @@
     </div>
   </div>
     <div class="modal fade modal-slide-up" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-xl" id="modalDialog2">
         <div class="modal-content">
         <div class="modal-header">
             <img src="Assets/Images/full-size.png" alt="full size button" width="20" id="fullscreenToggle2" style="cursor: pointer;">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" id="btn-close2" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <div class="oneOrder h-100 p-lg-5 p-md-4 p-2 position-relative d-flex flex-column justify-content-center" id="firstOrder">
+            <div class="oneOrder p-lg-5 p-md-4 p-2 position-relative d-flex flex-column justify-content-center" id="firstOrder">
                 <div class="orderTop d-flex flex-lg-row flex-column align-items-center gap-4">
                     <img src="Assets/Images/glasses(2).png" alt="glasses">
-                    <div class=" d-flex align-items-center justify-content-between gap-lg-4 w-100 flex-column flex-md-row">
-                        <div class="d-flex align-items-center justify-content-between gap-lg-4 w-100">
-                            <p class="name">Michel Mark</p>
+                    <div class=" d-flex align-items-center justify-content-between gap-4 w-100 flex-column flex-lg-row">
+                        <p class="name">Michel Mark</p>
+                        <div class="d-flex align-items-center justify-content-between col-12 col-lg-6">
                             <p class="details">Black Rim</p>
                             <p class="details">Size: L</p>
                             <p class="details">Qty: 1</p>
@@ -86,7 +86,7 @@
       </div>
     </div>
   </div>
-    <nav class="p-lg-5 p-md-4 p-sm-2 d-flex flex-md-row flex-column gap-3 align-items-center justify-content-between ">
+    <nav class="p-5 d-flex flex-md-row flex-column-reverse gap-3 align-items-center justify-content-between ">
      <h1 class="text-center">Thanks for your Order, <span>Anjali</span> !</h1>
     <div class="header d-flex flex-column">
         <img src="Assets/Images/sun-glasses.png" alt="sun-glasses" class="m-auto">
@@ -99,14 +99,14 @@
             <p class="receipt">Receipt</p>
             <p class="voucher text-center">Receipt Voucher : 1KAU-84UIL</p>
         </div>
-        <div class="d-flex align-items-center justify-content-between p-3 mt-3 bg-white order">
+        <div class="d-flex align-items-center justify-content-between gap-3 flex-md-row flex-column p-3 mt-3 order mx-auto">
             <img src="Assets/Images/glasses.png" alt="Glasses" >
             <p class="text-center">Order one</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 View Order
               </button>
         </div>
-        <div class="d-flex align-items-center justify-content-between p-3 mt-3 bg-white order">
+        <div class="d-flex align-items-center justify-content-between gap-3 flex-md-row flex-column p-3 mt-3 order mx-auto">
             <img src="Assets/Images/glasses(2).png" alt="Glasses">
             <p class="text-center">Order Two</p>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">

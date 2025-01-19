@@ -46,7 +46,7 @@ body nav h1 span {
     font-size: 32px;
   }
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   body nav h1 {
     font-size: 26px;
   }
@@ -58,7 +58,7 @@ body nav .header {
 body nav .header img {
   width: 150px;
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   body nav .header {
     font-size: 18px;
   }
@@ -85,7 +85,11 @@ body .order p {
 body .order img {
   width: 150px;
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
+  body .order {
+    height: fit-content;
+    width: fit-content;
+  }
   body .order img {
     width: 80px;
   }
@@ -98,7 +102,7 @@ body .orderHead .receipt {
   color: #ab47bc;
   font-weight: 600;
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   body .orderHead .receipt {
     font-size: 20px;
   }
@@ -107,7 +111,7 @@ body .orderHead .voucher {
   color: #a8a5a3;
   font-size: 18px;
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   body .orderHead .voucher {
     font-size: 14px;
   }
@@ -116,7 +120,7 @@ body .orderTop .name {
   font-size: 24px;
   color: #a8a5a3;
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   body .orderTop .name {
     font-size: 20px;
   }
@@ -125,7 +129,7 @@ body .orderTop .details {
   font-size: 22px;
   color: #a8a5a3;
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   body .orderTop .details {
     font-size: 18px;
   }
@@ -135,7 +139,7 @@ body .orderTop .orderTotal {
   color: #a8a5a3;
   font-weight: 600;
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   body .orderTop .orderTotal {
     font-size: 22px;
   }
@@ -173,7 +177,7 @@ body .state p {
     font-size: 20px;
   }
 }
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   body .state p {
     font-size: 16px;
   }
